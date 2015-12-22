@@ -1,5 +1,5 @@
 {
-	"name": "it-should-be-at-core",
+	"name": "it-should-be-at-core-vscode",
 	"displayName": "It should be at core",
 	"description": "Gotchas, Insights and helpful features. Remember files, back actions (after go to definition for example), etc...",
 	"version": "0.0.1",
