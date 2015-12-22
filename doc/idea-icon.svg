@@ -16,6 +16,8 @@
     version="1.1"
     enable-background="new 0 0 275 275"
     x="0px"
+		height="30px"
+		width="30px"
   >
 <g
       id="Idea"

@@ -1,5 +1,5 @@
 
-# ![It should be at core](./doc/idea-icon.svg =30x30) It should be at core
+# <img alt="It should be at core" src="./doc/idea-icon.svg" width=30 height=30> It should be at core
 
 Gotchas, Insights and helpful features. Remember files, back actions (after go to definition for example), etc...
 
