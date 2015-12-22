@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 /**
  * Controls the behaviour of remembering the order of viewed files.
  */
-export class SmartFileReoppener {
+export class SmartFileReopener {
 	/** List of viewed documents */
 	documents: Array<vscode.TextDocument>;
 	/** When openning a file and closing it, we do not want that file oppened again... so jump first in this case... */

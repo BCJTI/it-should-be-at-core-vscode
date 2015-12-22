@@ -1,15 +1,15 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
-import {SmartFileReoppener} from './SmartFileReoppener';
+import {SmartFileReopener} from './SmartFileReopener';
 
-let smartFileReoppener: SmartFileReoppener;
+let smartFileReopener: SmartFileReopener;
 
 export function activate(context: vscode.ExtensionContext) {
-	smartFileReoppener = new SmartFileReoppener();
+	smartFileReopener = new SmartFileReopener();
 }
 
 // this method is called when your extension is deactivated
 export function deactivate() {
-	smartFileReoppener = undefined;
+	smartFileReopener = undefined;
 }

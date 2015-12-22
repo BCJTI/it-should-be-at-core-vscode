@@ -4,9 +4,15 @@
 	"description": "Gotchas, Insights and helpful features. Remember files, back actions (after go to definition for example), etc...",
 	"version": "0.0.1",
 	"publisher": "bigous",
+	"icon": "doc/idea-icon.png",
 	"engines": {
 		"vscode": "^0.10.5"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BCJTI/it-should-be-at-core-vscode"
+	},
+	"bugs": "https://github.com/BCJTI/it-should-be-at-core-vscode/issues",
 	"categories": [
 		"Other"
 	],
@@ -14,8 +20,7 @@
 		"*"
 	],
 	"main": "./out/src/extension",
-	"contributes": {
-	},
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
 		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"

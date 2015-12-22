@@ -1,13 +1,14 @@
-# README
-## This is the README for your extension "it-should-be-at-core" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+![It should be at core](doc/idea-icon.svg)
+# It should be at core
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+Gotchas, Insights and helpful features. Remember files, back actions (after go to definition for example), etc...
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Features
 
-** Enjoy!**
+### Remember list of openned files
+
+This feature is automatically triggered.
+When you close the current file, the default behaviour of VSCode is to close de editor and show a black window.
+This is specially painful when you use F12 (go to definition) repeatedly and whant to go back to the last file.
+With this feature enabled, just close the actual file and the last one will be oppened.
+![File Reopener example](doc/file-reopener-example.gif)
