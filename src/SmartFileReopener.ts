@@ -1,4 +1,4 @@
-import {Disposable, ExtensionContext, TextEditor, TextDocument, window, workspace} from 'vscode';
+import {Disposable, TextEditor, TextDocument, window, workspace} from 'vscode';
 
 /**
  * Controls the behaviour of remembering the order of viewed files.
@@ -11,11 +11,8 @@ export class SmartFileReopener {
 	private jumpFirst: boolean;
 	/** Disposable to handle the release of used resources */
 	private disposable: Disposable;
-	/** Context of extension */
-	private context: ExtensionContext;
 
-	constructor(context: ExtensionContext) {
-		this.context = context;
+	constructor() {
 		this.documents = [];
 		let textEditors = window.visibleTextEditors;
 		for (let i = 0; i < textEditors.length; i++) {

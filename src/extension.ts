@@ -4,7 +4,8 @@ import * as vscode from 'vscode';
 import {SmartFileReopener} from './SmartFileReopener';
 
 export function activate(context: vscode.ExtensionContext) {
-	context.subscriptions.push(new SmartFileReopener(context));
+	// SmartFileReopener is Disposable... so we pass it to the context subscriptions to manage when it should be disposed.
+	context.subscriptions.push(new SmartFileReopener());
 }
 
 // this method is called when your extension is deactivated
