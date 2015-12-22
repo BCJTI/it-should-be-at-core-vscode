@@ -5,7 +5,7 @@
 	"version": "0.0.1",
 	"publisher": "bigous",
 	"engines": {
-		"vscode": "^0.10.1"
+		"vscode": "^0.10.5"
 	},
 	"categories": [
 		"Other"
