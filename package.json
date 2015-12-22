@@ -6,8 +6,8 @@
 	"publisher": "bigous",
 	"icon": "doc/idea-icon.png",
 	"galleryBanner": {
-		"color": "#9AD837",
-		"theme": "dark"
+		"color": "#605040",
+		"theme": "light"
 	},
 	"engines": {
 		"vscode": "^0.10.5"
