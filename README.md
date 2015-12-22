@@ -1,5 +1,5 @@
 
-# <img alt="It should be at core" src="./doc/idea-icon.svg" width=30 height=30> It should be at core
+# <img alt="It should be at core" src="https://cdn.rawgit.com/BCJTI/it-should-be-at-core-vscode/master/doc/idea-icon.svg" width=30 height=30> It should be at core
 
 Gotchas, Insights and helpful features. Remember files, back actions (after go to definition for example), etc...
 
