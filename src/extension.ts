@@ -3,13 +3,10 @@
 import * as vscode from 'vscode';
 import {SmartFileReopener} from './SmartFileReopener';
 
-let smartFileReopener: SmartFileReopener;
-
 export function activate(context: vscode.ExtensionContext) {
-	smartFileReopener = new SmartFileReopener();
+	context.subscriptions.push(new SmartFileReopener(context));
 }
 
 // this method is called when your extension is deactivated
 export function deactivate() {
-	smartFileReopener = undefined;
 }
