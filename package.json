@@ -7,7 +7,7 @@
 	"icon": "doc/idea-icon.png",
 	"galleryBanner": {
 		"color": "#605040",
-		"theme": "light"
+		"theme": "dark"
 	},
 	"engines": {
 		"vscode": "^0.10.5"
