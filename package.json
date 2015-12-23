@@ -4,7 +4,7 @@
 	"description": "Gotchas, Insights and helpful features. Remember files, back actions (after go to definition for example), etc...",
 	"version": "0.0.1",
 	"publisher": "bigous",
-	"icon": "doc/idea-icon.png",
+	"icon": "doc/idea-icon.svg",
 	"galleryBanner": {
 		"color": "#605040",
 		"theme": "dark"
